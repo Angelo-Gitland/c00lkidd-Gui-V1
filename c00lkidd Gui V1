@@ -1,0 +1,189 @@
+-- Made by: Lua Land XD
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local Lighting = game:GetService("Lighting")
+local Workspace = game:GetService("Workspace")
+
+local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+gui.Name = "c00lkiddGui"
+gui.ResetOnSpawn = false
+
+local frame = Instance.new("Frame", gui)
+frame.Size = UDim2.new(0, 300, 0, 420)
+frame.Position = UDim2.new(0.3, 0, 0.2, 0)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+frame.BorderSizePixel = 4
+frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+frame.Active = true
+frame.Draggable = true
+
+local title = Instance.new("TextLabel", frame)
+title.Size = UDim2.new(1, 0, 0, 40)
+title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 2
+title.BorderColor3 = Color3.fromRGB(0, 255, 0)
+title.Text = "c00lkidd Gui V1"
+title.TextColor3 = Color3.fromRGB(255, 0, 0)
+title.Font = Enum.Font.Arcade
+title.TextSize = 20
+
+local scrolling = Instance.new("ScrollingFrame", frame)
+scrolling.Size = UDim2.new(1, 0, 1, -40)
+scrolling.Position = UDim2.new(0, 0, 0, 40)
+scrolling.CanvasSize = UDim2.new(0, 0, 10, 0)
+scrolling.ScrollBarThickness = 6
+scrolling.BackgroundTransparency = 1
+
+local layout = Instance.new("UIListLayout", scrolling)
+layout.SortOrder = Enum.SortOrder.LayoutOrder
+layout.Padding = UDim.new(0, 4)
+
+local function addButton(name, callback)
+    local btn = Instance.new("TextButton", scrolling)
+    btn.Size = UDim2.new(1, -10, 0, 40)
+    btn.Position = UDim2.new(0, 5, 0, 0)
+    btn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    btn.BorderSizePixel = 2
+    btn.BorderColor3 = Color3.fromRGB(0, 255, 0)
+    btn.Text = name
+    btn.TextColor3 = Color3.fromRGB(0, 255, 0)
+    btn.Font = Enum.Font.Arcade
+    btn.TextSize = 18
+    btn.MouseButton1Click:Connect(callback)
+end
+
+addButton("Rainbow Skybox", function()
+    local s = Instance.new("Sky")
+    s.SkyboxUp = "http://www.roblox.com/asset/?id=271042516"
+    s.SkyboxLf = "http://www.roblox.com/asset/?id=271042556"
+    s.SkyboxBk = "http://www.roblox.com/asset/?id=271042467"
+    s.SkyboxFt = "http://www.roblox.com/asset/?id=271042310"
+    s.SkyboxRt = "http://www.roblox.com/asset/?id=271042467"
+    s.SkyboxDn = "http://www.roblox.com/asset/?id=271077243"
+    s.Parent = Lighting
+end)
+
+addButton("Nebula Skybox", function()
+    local s = Instance.new("Sky")
+    s.SkyboxUp = "http://www.roblox.com/asset/?id=159454299"
+    s.SkyboxLf = "http://www.roblox.com/asset/?id=159454296"
+    s.SkyboxBk = "http://www.roblox.com/asset/?id=159454296"
+    s.SkyboxFt = "http://www.roblox.com/asset/?id=159454293"
+    s.SkyboxRt = "http://www.roblox.com/asset/?id=159454296"
+    s.SkyboxDn = "http://www.roblox.com/asset/?id=159454288"
+    s.Parent = Lighting
+end)
+
+addButton("k00pkidd Skybox", function()
+    local s = Instance.new("Sky")
+s.SkyboxUp = "http://www.roblox.com/asset/?id=9422866248"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=9422866248"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=9422866248"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=9422866248"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=9422866248"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=9422866248"
+s.Parent = Lighting
+end)
+
+addButton("c00lkidd (Original) Skybox", function()
+    local s = Instance.new("Sky")
+s.SkyboxUp = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=358313209"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=358313209"
+s.Parent = Lighting
+end)
+
+addButton("tubers93 Jumpscare (Fake)", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-jumpscare-tubers93-24644"))()
+end)
+
+addButton("Disco", function()
+    while task.wait(0.2) do
+        Lighting.Ambient = Color3.new(math.random(), math.random(), math.random())
+    end
+end)
+
+addButton("Explode All", function()
+    for _,plr in pairs(Players:GetPlayers()) do
+        if plr.Character then
+            Instance.new("Explosion", plr.Character).Position = plr.Character.HumanoidRootPart.Position
+        end
+    end
+end)
+
+addButton("666", function()
+    for _,part in pairs(Workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            local fire = Instance.new("Fire", part)
+            fire.Size = 15
+            fire.Heat = 10
+        end
+    end
+end)
+
+addButton("T0s Breaker (Private)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VEWHfWyn"))()
+end)
+
+addButton("FF", function()
+    local char = player.Character or player.CharacterAdded:Wait()
+    if not char:FindFirstChildOfClass("ForceField") then
+        Instance.new("ForceField", char)
+    end
+end)
+
+addButton("Project Tridony (Private)", function()
+    loadstring(game:HttpGet("https://pastefy.app/fGCfZQup/raw"))()
+end)
+
+addButton("H4ckBo 111 Executor", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-H4CKBO111-Clan-Executor-GUI-2025-V1-49258"))()
+end)
+
+addButton("P0p Gui V5", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-P0pgui-v05-49910"))()
+end)
+
+addButton("c00lkidd Clan Gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true))()
+end)
+
+addButton("c00lgui Mobile Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/c00lkidd-Gui-Mobile/refs/heads/main/c00lgui%20Mobile"))()
+end)
+
+addButton("G00by Gui (Simple)", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-G00byd0lan-simple-gui-10360"))()
+end)
+
+addButton("Private Gui by Hanif", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/E5k09bh1"))()
+end)
+
+addButton("Project c0end2027", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/8yAEWSVE"))()
+end)
+
+addButton("Project Stigma", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/mG8XGpmD", true))()
+end)
+
+addButton("Project Rc7", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Project-RC7-11635", true))()
+end)
+
+addButton("Rc7", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CoreGui/Scripts/main/RC7"))()
+end)
+
+addButton("Mario Exe", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mario-exe-premium-9389"))()
+end)
+
+addButton("Project Ligma", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Project-Ligma-28816"))()
+end)
