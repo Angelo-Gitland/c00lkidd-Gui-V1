@@ -53,6 +53,7 @@ local function addButton(name, callback)
     btn.MouseButton1Click:Connect(callback)
 end
 
+-- 🌌 Skybox buttons
 addButton("Rainbow Skybox", function()
     local s = Instance.new("Sky")
     s.SkyboxUp = "http://www.roblox.com/asset/?id=271042516"
@@ -77,26 +78,27 @@ end)
 
 addButton("k00pkidd Skybox", function()
     local s = Instance.new("Sky")
-s.SkyboxUp = "http://www.roblox.com/asset/?id=9422866248"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=9422866248"
-s.SkyboxBk = "http://www.roblox.com/asset/?id=9422866248"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=9422866248"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=9422866248"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=9422866248"
-s.Parent = Lighting
+    s.SkyboxUp = "http://www.roblox.com/asset/?id=9422866248"
+    s.SkyboxLf = "http://www.roblox.com/asset/?id=9422866248"
+    s.SkyboxBk = "http://www.roblox.com/asset/?id=9422866248"
+    s.SkyboxFt = "http://www.roblox.com/asset/?id=9422866248"
+    s.SkyboxRt = "http://www.roblox.com/asset/?id=9422866248"
+    s.SkyboxDn = "http://www.roblox.com/asset/?id=9422866248"
+    s.Parent = Lighting
 end)
 
 addButton("c00lkidd (Original) Skybox", function()
     local s = Instance.new("Sky")
-s.SkyboxUp = "http://www.roblox.com/asset/?id=358313209"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=358313209"
-s.SkyboxBk = "http://www.roblox.com/asset/?id=358313209"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=358313209"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=358313209"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=358313209"
-s.Parent = Lighting
+    s.SkyboxUp = "http://www.roblox.com/asset/?id=358313209"
+    s.SkyboxLf = "http://www.roblox.com/asset/?id=358313209"
+    s.SkyboxBk = "http://www.roblox.com/asset/?id=358313209"
+    s.SkyboxFt = "http://www.roblox.com/asset/?id=358313209"
+    s.SkyboxRt = "http://www.roblox.com/asset/?id=358313209"
+    s.SkyboxDn = "http://www.roblox.com/asset/?id=358313209"
+    s.Parent = Lighting
 end)
 
+-- 🔥 Fun / Troll
 addButton("tubers93 Jumpscare (Fake)", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-jumpscare-tubers93-24644"))()
 end)
@@ -125,6 +127,7 @@ addButton("666", function()
     end
 end)
 
+-- 🕵️ Scripts
 addButton("T0s Breaker (Private)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/VEWHfWyn"))()
 end)
@@ -165,7 +168,30 @@ addButton("Private Gui by Hanif", function()
 end)
 
 addButton("Project c0end2027", function()
+    -- Run the script
     loadstring(game:HttpGet("https://pastebin.com/raw/8yAEWSVE"))()
+
+    -- Show notification with key
+    local notifGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+    notifGui.Name = "c0end2027Notif"
+    notifGui.ResetOnSpawn = false
+
+    local notif = Instance.new("TextLabel", notifGui)
+    notif.Size = UDim2.new(0, 220, 0, 50)
+    notif.Position = UDim2.new(0.5, -110, 0.1, 0)
+    notif.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    notif.BorderSizePixel = 2
+    notif.BorderColor3 = Color3.fromRGB(0, 255, 0)
+    notif.Text = "Key Is: c0end2027"
+    notif.TextColor3 = Color3.fromRGB(0, 255, 0)
+    notif.Font = Enum.Font.Arcade
+    notif.TextSize = 18
+
+    task.delay(7, function()
+        if notifGui then
+            notifGui:Destroy()
+        end
+    end)
 end)
 
 addButton("Project Stigma", function()
