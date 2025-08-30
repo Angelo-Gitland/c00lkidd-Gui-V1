@@ -209,10 +209,6 @@ addButton("Project Stigma", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/mG8XGpmD", true))()
 end)
 
-addButton("Project Rc7", function()
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Project-RC7-11635", true))()
-end)
-
 addButton("Rc7", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CoreGui/Scripts/main/RC7"))()
 end)
@@ -224,3 +220,48 @@ end)
 addButton("Project Ligma", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Project-Ligma-28816"))()
 end)
+
+addButton("MateoSS Idk If Fe", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/MateoSS/refs/heads/main/MateoSS%20Idk%20If%20Fe"))()
+end)
+
+addButton("Two Brothers Gui", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1sRPZUvM"))()
+end)
+
+addButton("Normal Private Gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/normal-private-Gui/refs/heads/main/normal%20private%20Gui"))()
+end)
+
+addButton("C0dr5x5 Gui", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/XNAy2jzD"))()
+end)
+
+addButton("Snoop Dogg", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Snoop-Dogg-/refs/heads/main/Snoop%20Dogg"))()
+end)
+
+addButton("Private Gui By Duck", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Private-gui-by-duck-team-50561"))()
+end)
+
+addButton("Octo Spy", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Octo-Spy/refs/heads/main/Main.lua", true))()
+end)
+
+addButton("Grab Knife V4", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/retpirato/Roblox-Scripts/refs/heads/master/Grab%20Knife%20V4.lua"))()
+end)
+
+addButton("Clown Kidnapper", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/vP2D2vnC'))()
+end)
+
+addButton("Taco Rain!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Yx05z4L5"))()
+end)
+
+addButton("c00lgui Rework", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MYsVtALF"))()
+end)
+
