@@ -98,7 +98,19 @@ addButton("c00lkidd (Original) Skybox", function()
     s.Parent = Lighting
 end)
 
--- 🔥 Fun / Troll
+-- Starting🥳
+addButton("c00lkidd Skybox", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Skybox/refs/heads/main/Skybox"))()
+end)
+
+addButton("c00lkidd Particles", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Particles/refs/heads/main/Particles"))()
+end)
+
+addButton("c00lkidd Decal", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Decal-Spam/refs/heads/main/Decal"))()
+end)
+
 addButton("tubers93 Jumpscare (Fake)", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-jumpscare-tubers93-24644"))()
 end)
@@ -127,7 +139,6 @@ addButton("666", function()
     end
 end)
 
--- 🕵️ Scripts
 addButton("T0s Breaker (Private)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/VEWHfWyn"))()
 end)
