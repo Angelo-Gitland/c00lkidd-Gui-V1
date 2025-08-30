@@ -265,3 +265,79 @@ addButton("c00lgui Rework", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/MYsVtALF"))()
 end)
 
+addButton("Fe Fighter", function()
+    loadstring(game:HttpGet("https://github.com/Sinister-Scripts/Roblox-Exploits/raw/refs/heads/main/FE-Fighter-Cracked"))()
+end)
+
+addButton("Fe Sharingan (R6)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/bidQM5Bz"))()
+end)
+
+addButton("Fe Aimbot", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/refs/heads/main/Aimbot%20Script.lua"))()
+end)
+
+addButton("Fe Vereus", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fRbemiRf"))()
+end)
+
+addButton("Fe Shapeshifter (R6)", function()
+    loadstring(game:HttpGet("https://pastefy.app/2C3cRXXp/raw"))()
+end)
+
+addButton("Fe Project Troll", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/2UcwgDS1"))()
+end)
+
+addButton("Fe Krib Troll Gui", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/wDVr7Pqx"))()
+end)
+
+addButton("Fe Zombie (R15)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0GUbHyeH"))()
+end)
+
+addButton("Fe Scp 096 Shy Guy", function()
+    loadstring(game:HttpGet("https://pastefy.app/YsJgITXR/raw"))()
+end)
+
+addButton("Fe Blackhole", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringFlingPlayers"))()
+end)
+
+addButton("Fe Hamsterball", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/scripts/refs/heads/main/unofficial-Projects/FEHamsterBall.lua"))()
+end)
+
+addButton("Fe Zero Gravity", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/zerogravity"))()
+end)
+
+addButton("Fe Caducus", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/XJeBNe0s"))()
+end)
+
+addButton("Fe Walk on walls", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Walk-on-Walls-Or-ceilings-1469"))()
+end)
+
+addButton("Fe Katana Npc", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/NTNHKeMZ", true))()
+end)
+
+addButton("Fe Wally West", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XQZ-official/XQZscripts/refs/heads/main/WallyWest.txt'))()
+end)
+
+addButton("Fe Animation Player", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/shakk-code/fe-animation-player/refs/heads/main/script.lua', true))()
+end)
+
+addButton("Fe Kamui", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PF0q1vDQ"))()
+end)
+
+addButton("Lua Land Hub V6", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Lua-Land-Hub-V6/refs/heads/main/Lua%20Land%20Hub%20V6"))()
+end)
+
