@@ -341,3 +341,129 @@ addButton("Lua Land Hub V6", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Lua-Land-Hub-V6/refs/heads/main/Lua%20Land%20Hub%20V6"))()
 end)
 
+addButton("Raindrop Cloud", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PEWnKhnd"))()
+end)
+
+addButton("Control Npc", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty38.lua"))()
+end)
+
+addButton("MLG Wings", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/YyFbEMkE"))()
+end)
+
+addButton("Spider", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/XNVWznPH"))()
+end)
+
+addButton("Zombie", function()
+    loadstring(game:HttpGet(('https://pastefy.app/w7KnPY70/raw'),true))()
+end)
+
+addButton("Xester", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Xester-18937"))()
+end)
+
+addButton("Thomas The Dank Engine Remake", function()
+    loadstring(game:HttpGet("https://pastefy.app/jTvSKOGh/raw"))()
+end)
+
+addButton("D1ck Gun", function()
+    loadstring(game:HttpGet("https://pastefy.app/Tq7G80Tr/raw"))()
+end)
+
+addButton("Bomb Vest V1", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LuasLegacyScripts/refs/heads/main/%5BRecharacter%5D%20Bomb%20Vest"))()
+end)
+
+addButton("Bomb Vest V2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBypasserHax1/Ussjzbwusbdlq/refs/heads/main/Luafile33Xc3eww"))()
+end)
+
+addButton("Obama Jumpscare", function()
+    loadstring(game:HttpGet("https://pastefy.app/ORe0fQ07/raw"))()
+end)
+
+addButton("Steve", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9vxQ22F1"))()
+end)
+
+addButton("Thomas The Dank Engine", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/refs/heads/main/Thomas%20The%20Dank%20Engine.txt"))()
+end)
+
+addButton("Lua Hammer", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934"))()
+end)
+
+addButton("Dominant Executor", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479"))()
+end)
+
+addButton("Epic Serverside", function()
+    loadstring(game:HttpGet("https://pastebin.com/CPpT7UzM"))();
+end)
+
+addButton("Lua", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/HTBxzUaq')))()
+end)
+
+addButton("g00byd0lan Executor", function()
+    loadstring(game:HttpGet("https://pastefy.app/LgKOzHYy/raw"))()
+end)
+
+addButton("Project Lua", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Project-Lua-Inspired-by-Project-Ligma-26224"))()
+end)
+
+addButton("Sad Rc7", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/Gf5qPQbV')))()
+end)
+
+addButton("Super Super Duper Gui By c00lkidd", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/danialjdjsj/Jsksowjsbsiwiwbsisjwjddiodjebsbsisnebejnsbsueiwhsbdwjssbdikwsjbshdisjskwnsbdjsuiss/refs/heads/main/Sjejeushshsjsjshdjsjebdudihdhdjekehesihdeueisjhshsusjsjwj"))()
+end)
+
+addButton("Private Gui By Sigmaz", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/danialjdjsj/Private-gui-by-sigmaz/refs/heads/main/Private%20gui%20by%20sigmaz%20very%20very%20private%20mew%20hub%20sigma%20gyat%20tuzz"))()
+end)
+
+addButton("Private Anonymos", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxScriptsBackups/Yaya/refs/heads/main/private%20gui%20back%20after%20orion%20library%20dead%20official.txt"))()
+end)
+
+addButton("Sigma Gui", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/eMakNZg0"))()
+end)
+
+addButton("SF Executor", function()
+    loadstring(game:HttpGet("https://pastefy.app/xj9lkBIv/raw", true))()
+end)
+
+addButton("Dreamybull", function()
+    -- Run the script
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Bypass-idk-32121"))()
+
+-- Show notification with key
+    local notifGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+    notifGui.Name = "DreamNotif"
+    notifGui.ResetOnSpawn = false
+
+    local notif = Instance.new("TextLabel", notifGui)
+    notif.Size = UDim2.new(0, 220, 0, 50)
+    notif.Position = UDim2.new(0.5, -110, 0.1, 0)
+    notif.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    notif.BorderSizePixel = 2
+    notif.BorderColor3 = Color3.fromRGB(0, 255, 0)
+    notif.Text = "Pass Is: Dream"
+    notif.TextColor3 = Color3.fromRGB(0, 255, 0)
+    notif.Font = Enum.Font.Arcade
+    notif.TextSize = 18
+
+    task.delay(7, function()
+        if notifGui then
+            notifGui:Destroy()
+        end
+    end)
+end)
