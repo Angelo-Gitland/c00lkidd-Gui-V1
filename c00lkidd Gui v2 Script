@@ -23,7 +23,7 @@ title.Size = UDim2.new(1, 0, 0, 40)
 title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 title.BorderSizePixel = 2
 title.BorderColor3 = Color3.fromRGB(0, 255, 0)
-title.Text = "c00lkidd Gui V1"
+title.Text = "c00lkidd Gui V2"
 title.TextColor3 = Color3.fromRGB(255, 0, 0)
 title.Font = Enum.Font.Arcade
 title.TextSize = 20
@@ -53,7 +53,6 @@ local function addButton(name, callback)
     btn.MouseButton1Click:Connect(callback)
 end
 
--- 🌌 Skybox buttons
 addButton("Rainbow Skybox", function()
     local s = Instance.new("Sky")
     s.SkyboxUp = "http://www.roblox.com/asset/?id=271042516"
@@ -98,7 +97,6 @@ addButton("c00lkidd (Original) Skybox", function()
     s.Parent = Lighting
 end)
 
--- Starting🥳
 addButton("c00lkidd Skybox", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Skybox/refs/heads/main/Skybox"))()
 end)
@@ -182,7 +180,6 @@ addButton("Project c0end2027", function()
     -- Run the script
     loadstring(game:HttpGet("https://pastebin.com/raw/8yAEWSVE"))()
 
-    -- Show notification with key
     local notifGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
     notifGui.Name = "c0end2027Notif"
     notifGui.ResetOnSpawn = false
@@ -337,8 +334,8 @@ addButton("Fe Kamui", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/PF0q1vDQ"))()
 end)
 
-addButton("Lua Land Hub V6", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Lua-Land-Hub-V6/refs/heads/main/Lua%20Land%20Hub%20V6"))()
+addButton("Lua Land Hub V5", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Lua-Land-Hub-V5/refs/heads/main/Lua%20Land%20Hub%20V5"))()
 end)
 
 addButton("Raindrop Cloud", function()
@@ -445,7 +442,6 @@ addButton("Dreamybull", function()
     -- Run the script
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Bypass-idk-32121"))()
 
--- Show notification with key
     local notifGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
     notifGui.Name = "DreamNotif"
     notifGui.ResetOnSpawn = false
